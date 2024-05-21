@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Forecastify</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img style="height: 27px; width: 27px" src="Logosmall.png" alt="">Forecastify</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+         
+            <li class="nav-item">
+              <a href="help.html" class="nav-link active disabled">Help!</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input id="city" autocomplete="off" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-11">
+                <h5>Current Temperature</h5>
+                <p>This represents the actual temperature at a specific moment in time at the location of interest. It indicates how hot or cold the weather currently is, typically measured in degrees Celsius or Fahrenheit.</p>
+    
+                <h5>Minimum Temperature</h5>
+                <p>This refers to the lowest temperature recorded over a specific period, usually within the past 24 hours. It provides insight into how cold the weather could get during the day or night, helping individuals plan their activities accordingly.</p>
+    
+                <h5>Maximum Temperature</h5>
+                <p>This denotes the highest temperature observed over a defined period, often within the last 24 hours. It indicates the peak level of warmth experienced during the day, aiding in understanding the overall temperature trend and potential heat stress.</p>
+    
+                <h5>Humidity</h5>
+                <p>Humidity measures the amount of moisture present in the air. It represents the percentage of water vapor relative to the maximum amount of moisture the air can hold at a specific temperature and pressure. High humidity levels can make the air feel damp and uncomfortable, while low humidity can lead to dryness.</p>
+    
+                <h5>Cloud PTC</h5>
+                <p>Cloud PTC, or Percent Total Cloudiness, indicates the extent of cloud cover in the sky, represented as a percentage. A higher percentage suggests more cloud cover, potentially leading to diffused sunlight, cooler temperatures, and increased chances of precipitation.</p>
+    
+                <h5>Feels Like</h5>
+                <p>The "feels like" temperature, also known as the apparent temperature, considers factors like humidity, wind speed, and radiation from the sun to describe how the weather actually feels to the human body. It can differ from the actual air temperature, providing a more accurate representation of perceived temperature.</p>
+    
+                <h5>Wind Speed</h5>
+                <p>Wind speed measures how fast the air is moving horizontally past a certain point. It's typically reported in miles per hour (mph) or kilometers per hour (km/h). Wind speed influences various aspects of weather, including temperature perception, wind chill, and the dispersal of pollutants.</p>
+    
+                <h5>Sunrise</h5>
+                <p>Sunrise refers to the moment when the upper limb of the Sun appears above the horizon in the morning, marking the start of daylight. It's a crucial parameter for planning outdoor activities and understanding daily daylight patterns.</p>
+    
+                <h5>Sunset</h5>
+                <p>Sunset signifies the moment when the upper limb of the Sun disappears below the horizon in the evening, marking the end of daylight. Like sunrise, sunset timing is important for scheduling activities and observing natural phenomena influenced by daylight changes.</p>
+            </div>
+        </div>
+    </div>
+    
+ 
+    
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Forecastify, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
