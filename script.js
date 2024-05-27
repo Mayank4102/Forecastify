@@ -1,9 +1,8 @@
-
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': process.env.RAPIDAPI_KEY,
-        'X-RapidAPI-Host': process.env.RAPIDAPI_HOST
+		'X-RapidAPI-Key': "0e16448b10msh0ab981e1a701269p10992ajsn338e6cdfe5ab",
+        'X-RapidAPI-Host': "weather-by-api-ninjas.p.rapidapi.com"
 	}
 };
 const getWhether = (city) => { 
